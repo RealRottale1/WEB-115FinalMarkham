@@ -3,14 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Task Manager</title>
     <script src="./main.js" defer></script>
     <link rel="stylesheet" href="./css.css">
 </head>
 <body>
     <div id="parentDiv">
+        <h1>Task Manager</h1>
         <div id="addTaskDiv">
             <input id="taskName" type="text" placeholder="Task Name">
+            <select id="priorityMeter">
+                <option>High</option>
+                <option>Medium</option>
+                <option>Low</option>
+            </select>
             <input type="checkbox" id="highPriority">
             <p>High Importance</p>
             <button id="addTask">Add Task</button>
